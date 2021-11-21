@@ -32,7 +32,7 @@ public class MatrixOperation {
     }
 
     public int getMax(int[][] matrix) {
-        int maxNumber = 0;
+        int maxNumber = -2147483648;
         for (int[] i : matrix) {
             for (int j : i) {
                 if (maxNumber < j) {
